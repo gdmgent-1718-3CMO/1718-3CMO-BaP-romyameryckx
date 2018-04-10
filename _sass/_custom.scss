@@ -1,9 +1,21 @@
 /* Navigation
 ---------------------------------------------
 */
+
+
 .navbar a {
     border: none;
+    color: $mycolor-1;
 }
+.navbar a:hover{
+  color: $mycolor-2;
+}
+.navbar a:active{
+  color: $mycolor-2;
+  background-color: transparent;
+}
+
+
 
 /* FOOTER
 ----------------------------------------------
@@ -29,6 +41,7 @@ body {
 
 footer {
     background-color: $mycolor-2;
+    height: 200px;
     color: $color-white;
     a {
         color: $color-white;
@@ -37,6 +50,29 @@ footer {
         }
     }
 }
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: $mycolor-2;
+}
+
+footer div {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.kleurtabel {
+  color: $mycolor-1;
+}
+.paragraaf {
+  width: 70%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
 
 /* BACK TO TOP
 -------------------------
@@ -49,7 +85,7 @@ footer {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color:$mycolor-3; /* Set a background color */
+  background-color:$mycolor-1; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   //padding: 15px; /* Some padding */
@@ -58,6 +94,399 @@ footer {
   border-radius: 20px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
   &:hover {
-    background-color:$mycolor-5; 
+    background-color:$mycolor-2; 
   }
+}
+
+/* HEADER FOTO LOGO*/
+
+
+.huisstijl {
+  margin-top: -20px;
+  margin-bottom: 80px;
+}
+.headerfoto {
+  margin-top: 70px;
+}
+.homemargin {
+  margin-bottom: 100px;
+}
+.plaatsdownload {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+h2 {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  color: $mycolor-2;
+}
+h1 {
+  color: $mycolor-2;
+}
+.jumbotron {
+  background-color: $mycolor-3;
+}
+
+/*BUTTON*/
+
+.btn.btn-primary {
+  background-color: $mycolor-1;
+}
+.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active {
+  background-color: $mycolor-2;
+}
+.btn.btn-primary:active {
+  background-color: $mycolor-1;
+}
+.btn {
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 15px;
+  position: relative;
+  transition: all 0.15s ease-in-out;
+}
+.btn:hover, .btn:focus, .btn:active, .btn:active:focus {
+  outline: none;
+  transition: all 0.15s ease-in-out;
+}
+.btn:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.15s ease-in-out;
+  transform: translateY(-1px);
+}
+.btn:active {
+  box-shadow: none;
+  transition-duration: 0.05s;
+  transform: translateY(1px);
+  background-color: $mycolor-2;
+}
+
+.tekst {
+  text-align: right;
+}
+.tekstplaats {
+  margin-bottom: 200px;
+}
+.tekstmidden {
+  text-align: center;
+}
+
+
+/* KLEUR */
+
+.w3-half {
+  height:200px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.item {
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.2);
+  margin: 15px 0;
+  background-color: white;
+  padding: 10px;
+  background-color: white;
+  
+}
+.bg {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to bottom right,  
+    $mycolor-2, $mycolor-1, 
+    $mycolor-1, $mycolor-2, 
+    $mycolor-2, $mycolor-1, 
+    $mycolor-1, $mycolor-2);
+  background-repeat: no-repeat;
+  background-size: 1000% 1000%;
+
+}
+
+.card-img-top13 {
+  width: 70%;
+  margin-top: 30px;
+}
+.card-img-top14 {
+  width: 30%;
+  margin-top: 30px;
+}
+.card-img-top15 {
+  width: 30%;
+  margin-top: 30px;
+}
+.card-img-top16 {
+  width: 70%;
+  margin-top: 30px;
+}
+.card-img-top17 {
+  width: 70%;
+  margin-top: 30px;
+}
+.card-img-top18 {
+  width: 70%;
+  margin-top: 30px;
+}
+.kleuren {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+/* LOGO INFO*/
+
+
+.logokleuren {
+  width: 50%;
+  margin-top: 50px;
+}
+.logonav {
+  width: 15px;
+}
+.witruimtebaseline {
+  width: 40%;
+  margin-top: 50px;
+}
+
+.witruimtelogo {
+  margin-top: 50px;
+}
+.witruimtelogo2 {
+  margin-top: 50px;
+  width: 60%;
+}
+.witruimtelogo3 {
+  margin-top: 50px;
+  width: 63%;
+}
+
+.card-img-top7 {
+  width: 72%;
+  margin-top: 30px;
+}
+.card-img-top8 {
+  width: 30%;
+  margin-top: 30px;
+}
+.card-img-top9 {
+  width: 30%;
+  margin-top: 30px;
+}
+.card-title3 {
+  margin-top: 80px;
+}
+.cardlogo {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.plaatsquote {
+  margin-top: 70px;
+}
+.lijntje {
+  width: 15%;
+  margin-top: 10px;
+  border: 2px solid $mycolor-1;
+}
+
+/* LOGO WITRUIMTE */
+
+.card-img-top10 {
+  width: 70%;
+  margin-top: 30px;
+}
+.card-img-top11 {
+  width: 60%;
+  margin-top: 30px;
+}
+.card-img-top12 {
+  width: 65%;
+  margin-top: 30px;
+}
+.witruimte {
+  margin-top: 70px;
+}
+.minimaalformaat {
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.vbwitruimte {
+  width: 50%;
+  margin-top: 70px;
+}
+
+
+
+/*JUST DON'T*/
+
+.card-img-top {
+  width: 40%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.card-img-top2 {
+  width: 60%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.card-img-top3 {
+  width: 33%;
+  margin: auto;
+  padding-top: 30px;
+}
+.card-img-top4 {
+  width: 40%;
+  margin: auto;
+  padding-top: 30px;
+}
+.card-img-top5 {
+  width: 40%;
+  margin: auto;
+  padding-top: 30px;
+}
+.card-img-top6 {
+  width: 45%;
+  margin: auto;
+  padding-top: 30px;
+}
+.card-deck {
+  margin-top: 30px;
+}
+.foto1 {
+  width: 30%;
+}
+.foto2 {
+  width: 65%;
+}
+.card1 {
+  margin-bottom: 20px;
+}
+.foto3 {
+  width: 30%;
+  margin-bottom: 20px;
+}
+a {
+  color: $mycolor-2;
+}
+a:hover {
+  color: $mycolor-1;
+}
+a:active {
+  background-color: transparent;
+  color: transparent;
+}
+
+
+
+/* GRAFISCHE ELEMENTEN*/
+
+.lijnen {
+  margin-top: 70px;
+
+}
+
+/*TYPOGRAFIE*/
+
+.reeffont{
+  font-family: 'reef';
+}
+#extralight {
+  font-weight: 200;
+}
+#light {
+  font-weight: 300;
+}
+#regular {
+  font-weight: 400;
+}
+#medium {
+  font-weight: 500;
+}
+#semibold {
+  font-weight: 600;
+}
+#bold {
+  font-weight: 700;
+}
+#extrabold {
+  font-weight: 800;
+}
+.arialrounded {
+  font-family: 'Arial rounded MT bold';
+}
+.dosisrechts {
+  text-align: right;
+}
+.fototypografie {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.marginfont {
+  margin-top: 70px;
+}
+
+/* FOTOGRAFIE*/
+
+hr{
+  margin-top:50px;
+  border-top: 1px solid $mycolor-1;
+} 
+header { 
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap; 
+  flex-flow: row wrap; 
+  display: -webkit-box;
+  display: flex;
+}
+header div { 
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 300px;
+  margin: .5vw;
+}
+header div img { 
+  width: 100%; 
+}
+.margin {
+  margin-top: 50px;
+}
+.plaatsfotografie {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.verloopfotografie {
+  width: 40%;
+  margin-top: 50px;
+}
+.verloopfotografie1 {
+  width: 40%;
+  margin-top: 50px;
+}
+.margintekst {
+  margin-bottom: 200px;
+  margin-top: 70px;
+}
+
+@media (min-width: 576px) {
+  .margintekst {
+    margin-top: 270px;
+  }
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .plaatsdownload {
+    margin-top: 50px;
+  .plaats1 {
+    margin-top: 20px;
+  }
+  }
+  
+  
 }

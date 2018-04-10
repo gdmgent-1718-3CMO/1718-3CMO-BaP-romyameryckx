@@ -17,7 +17,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-weight: $font-weight-light;
     font-size: 4rem;
-    color: $color-grey-2;
+    color: $color-black;
+    padding-top: 70px;
 }
 h2 {
     font-weight: $font-weight-light;
@@ -45,7 +46,7 @@ a {
 }
 blockquote {
     padding-left: 24px;
-    border-left: 2px solid $mycolor-5;
+    border-left: 2px solid $mycolor-1;
 }
 
 // ongeordende lijstjes met een ander symbool of kleur
@@ -58,7 +59,7 @@ main ul {
     text-indent: -25px;
     &:before {
         content:'\2022';
-        color: $mycolor-5;
+        color: $mycolor-1;
         margin-right: 18px;
     }    
   }

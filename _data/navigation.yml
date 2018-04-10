@@ -19,8 +19,29 @@
   permalink: kleur/i
   # fa-icon: icon-info
 
-- name: Styleguide
-  description: Stijlgids voor de Huistijlgids
-  # folder: pages/stijlgids
-  permalink: /stijlgids
+- name: Grafische elementen
+  description: grafische elementen
+  # folder: pages/kleur/
+  permalink: /grafische elementen
   # fa-icon: icon-info
+
+- name: Typografie
+  description: typografie
+  # folder: pages/kleur/
+  permalink: /typografie
+  # fa-icon: icon-info
+
+- name: Fotografie
+  description: fotografie
+  # folder: pages/kleur/
+  permalink: /fotografie
+  # fa-icon: icon-info
+
+- name: Toepassingen
+  description: toepassingen
+  # folder: pages/kleur/
+  permalink: /toepassingen
+  # fa-icon: icon-info
+
+
+
