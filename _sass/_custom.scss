@@ -41,7 +41,7 @@ body {
 
 footer {
     background-color: $mycolor-2;
-    height: 200px;
+    height: 70px;
     color: $color-white;
     a {
         color: $color-white;
@@ -59,7 +59,7 @@ footer {
 
 footer div {
   text-align: center;
-  padding-top: 25px;
+  padding-top: 15px;
 }
 
 .kleurtabel {
@@ -107,6 +107,7 @@ footer div {
 }
 .headerfoto {
   margin-top: 70px;
+  width: 100%;
 }
 .homemargin {
   margin-bottom: 100px;
@@ -395,24 +396,31 @@ a:active {
 }
 #extralight {
   font-weight: 200;
+  font-size: 30px;
 }
 #light {
   font-weight: 300;
+  font-size: 30px;
 }
 #regular {
   font-weight: 400;
+  font-size: 30px;
 }
 #medium {
   font-weight: 500;
+  font-size: 30px;
 }
 #semibold {
   font-weight: 600;
+  font-size: 30px;
 }
 #bold {
   font-weight: 700;
+  font-size: 30px;
 }
 #extrabold {
   font-weight: 800;
+  font-size: 30px;
 }
 .arialrounded {
   font-family: 'Arial rounded MT bold';
@@ -472,6 +480,10 @@ header div img {
   margin-bottom: 200px;
   margin-top: 70px;
 }
+
+/*TOEPASSINGEN*/
+
+
 
 @media (min-width: 576px) {
   .margintekst {
