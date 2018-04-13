@@ -41,7 +41,7 @@ body {
 
 footer {
     background-color: $mycolor-2;
-    height: 70px;
+    height: 100px;
     color: $color-white;
     a {
         color: $color-white;
@@ -49,6 +49,16 @@ footer {
             
         }
     }
+}
+
+
+.tekstfooter {
+ display: table;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+
+
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -59,7 +69,7 @@ footer {
 
 footer div {
   text-align: center;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 
